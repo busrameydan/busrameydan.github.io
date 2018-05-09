@@ -7,6 +7,7 @@
 	background: transparent;
 	position: fixed;
 	width: 100%;
+	top:0;
 	
 }
 .navbar-default .navbar-toggle {
@@ -36,6 +37,7 @@
 
 
 header {
+	margin-top:20px;
 	background-image:url(img/joris-berthelot-561615-unsplash.jpg);
 	height:500px;
 	background-size: cover;
