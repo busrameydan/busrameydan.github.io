@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+#content{
+	background-color: #D9DFF1;
+}
+.navbar-default{
+	background: transparent;
+	position: fixed;
+	width: 100%;
+	z-index: 20;
+	top:0;
+	
+}
+.navbar-default .navbar-toggle {
+   margin-top: 85px;
+	
+}
+@media (min-width: 768px){
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;
+
+}
+	
+}
+@media (min-width: 768px){
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-right: 1px solid #d6d6d6;
+	display:inline-block;
+	padding-right: 50px!important;
+}
+}
+	.navbar-default{
+	background-color: rgb(217, 223, 241);
+ }
+
+
+header {
+	margin-top: 20px;
+	background-image:url(img/joris-berthelot-561615-unsplash.jpg);
+	height:500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: -160px; }
+header p{
+	margin-top:0 ;
+}
+
+.hero-container {
+	text-align: right;
+	padding-top: 200px;}
+
+.hero-container p{
+	color: black;
+	font-family:'Montserrat', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	margin-right:15%;
+
+	
+}
+.hero-container h2{
+	color: black;
+	font-family:'Montserrat', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	margin-right:20%;
+
+
+}
+.col-sm-12 h1{
+	margin-top: 5%;
+}
+
+
+/*CONTENT START*/
+#content{
+	padding:120px 0px;
+
+}
+.content-top h3{
+	font-family:'Montserrat', sans-serif;
+	font-size:40px;
+	font-weight: 700;
+}
+
+.content-top p{
+	font-family: 'Cairo', sans-serif;
+	color:#777;
+	font-size:16px;
+	font-style: italic;
+	margin-bottom:80px;
+	font-weight: 700;
+	
+}
+
+.item-circle{
+	border:3px solid #fed136;
+	width: 100px;
+	height: 100px;
+    margin:0 auto;    /* ortalamakicin kullanilir*/
+	border-radius: 200px;
+}
+
+.content-content i{
+	color:#fed136;
+	line-height: 100px;  /*100 px verdik cunku yukarida height ve  weight i 100 verdik*/
+	
+}
+
+.content-content h4{
+	margin-top: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color:#222;
+	
+}
+.content-content p{
+	font-family: 'RobotoSlap Regular';
+	font-size:14px;
+	color:#777;
+}
+/*CONTENT fınısh*/
+
+/*activities*/
+
+#activities{
+	
+	background-color: #f7f7f7;
+	padding-top:10px;
+	padding-bottom:70px;
+}
+
+
+.activities-top h3{
+	font-family:'Montserrat', sans-serif;
+	font-size:40px;
+	font-weight: 700;
+	margin-bottom: 80px;
+	margin-top: 80px;
+	
+}
+.activities-top  p{
+	font-family: 'Cairo', sans-serif;
+	color:#777;
+	font-size:16px;
+	font-style: italic;
+	margin-bottom:80px;
+	font-weight: 700;
+	
+}
+.card{
+	border-style:none;
+	
+}
+.activities-content .row{
+	margin-bottom:50px;
+}
+
+.activities-content.card-title{
+	font-family: 'Monserrat', sans-serif;
+	font-size:18px;
+	font-weight: 700;
+	padding-top:20px;
+	 
+}
+.activities-content .card-subtitle{
+	font-family:'Cairo', serif;
+	font-size:14px;
+	font-style: italic;
+	padding-bottom:20px;
+}
+
+
+/*about us*/
+
+
+/*Smooth scrolling*/
+
+.fixed-top .change-fix-top{
+	margin-top:0;
+	background-color: #1886c7;
+	max-width: 200px;
+	transition: all .8s ease;
+}
+
+#sevices{
+	background-color:#D9DFF1;
+}
+
+.ticket{font-weight: 700; font-size:40px;margin-left:360px;}
+.aticket:hover{text-decoration-line: none;}
+.img-services{height: 500px; width: 500px; margin:50px;}
+
+.ticket2{
+	font-weight: 700; font-size:40px;margin-left:125px;
+}
+.ticket3{
+	font-weight: 700; font-size:40px;margin-left:150px;
+}
+
+.fa-phone{
+	color: red;
+}
+.fa-fax{
+	color: #fed136;
+}
+.fa-address-card{
+	color: #0000ff;
+}
+.fa-mail-forward{
+	color: green;
+}
+.adres a{
+	color: #000;
+	text-decoration-line: none;
+}
+.mail a{
+	color: #000;
+	text-decoration-line: none;
+
+}
+
+#footer{
+	margin-top: 100px;
+}
+
+.top-contact{
+	margin-bottom: 100px;
+}
+
+.copyriht{
+	color: #818a91;
+	margin-top:10px;
+	text-align: center;
+
+
+}
+
+
+.image{
+	height: 300px;
+}
+
+
+#content{
+	padding:120px 0px;
+
+}
+.TEAM-top h3{
+	font-family:'Montserrat', sans-serif;
+	font-size:40px;
+	font-weight: 700;
+	margin-top: 100px;
+}
+
+.TEAM-top p{
+	font-family: 'Cairo', sans-serif;
+	color:#777;
+	font-size:16px;
+	font-style: italic;
+	margin-bottom:80px;
+	font-weight: 700;
+
+}
+.card{
+	padding-bottom: 40px;
+}
+
+.card-block{
+margin:20px;
+}
+
+
+.social-icons{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+
+
+}
+
+.social-icon{
+	display: inline;
+	padding-right: 5px;
+	padding-left: 5px;
+
+
+}
+
+.social-icon .fa{
+	border:2px solid #000;
+	width: 30px;
+	height: 30px;
+	margin:0 auto;    /* ortalamakicin kullanilir*/
+	border-radius: 30px;
+	line-height: 30px;
+
+
+}
